@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    /* width: 80%; */
+    margin: 5% auto;
+}
+.qr{
+    text-align: center;
+}
+.qr p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.qr img{
+    width: 50%;   
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    flex-direction: column;
+    background-color: orange;
+    padding: 17px;
+  }
+  .fa-brands{
+    color: black;
+    font-size: 35px;
+  }
+  footer p{
+    margin-top: 1rem;
+    text-decoration: none;
+  }
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    color: orangered;
+}
+.creator img{
+    width: 44%;
+}
+@media screen and (max-width: 800px) {
+    .main{
+        flex-direction: column;
+    }
+}
